@@ -1,0 +1,88 @@
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+	font-family: 'Comfortaa', cursive;
+	background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+
+.killapu {
+	font-family: 'Comfortaa', cursive;
+	font-weight: 700;
+}
+
+nav{
+	transition: background-color 600ms linear;
+}
+
+.navbar-fixed {
+	z-index: 9999;
+}
+
+nav ul a{
+	text-transform: uppercase !important;
+	font-size: .9rem;
+	font-weight: bold;
+}
+
+.dropdown-content{
+    overflow: visible !important;
+}
+
+.dropdown-content li a{
+    /*overflow: visible !important;*/
+    font-size: .8rem;
+    color: #000000;
+}
+
+.scrolled{
+	background-color: #fff !important;
+	transition: background-color 600ms linear;
+}
+
+.titular{
+	height: calc(100vh - 64px);
+	text-align: center;
+}
+
+.titular h1{
+	font-size: 6rem;
+}
+
+.titular h2 {
+	font-size: 3rem;
+}
+
+.resaltado {
+	font-weight: bold;
+	line-height: 2.3rem;
+}
+
+.ideaCentralCirculo{
+	background: #2F80ED;
+	color: #fff;
+	/*border: solid 2px #2F80ED;*/
+	/*text-decoration: underline;
+	text-decoration-color: #2F80ED;*/
+}
+
+.ideaCentralCirculo>*{
+	padding: 10px;
+	text-align: center;
+	width: 100%;
+
+}
+
+.circuloDorado{
+	height: 100vh;
+}
+
+.large{
+	color: #2F80ED;
+}

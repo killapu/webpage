@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Killapu Home</title>
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+	<!-- iconos -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Estilos externos -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Fuentes -->
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Pacifico|Roboto:100" rel="stylesheet">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Comfortaa|Roboto:100" rel="stylesheet"> -->
+	<!-- JQuery -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</head>
+<body>
+	<header>
+		<div class="navbar-fixed">
+			<nav class="transparent z-depth-0">
+				<div class="nav-wrapper container z-depth-0">
+				  <a href="#!" class="brand-logo killapu"> Killapu</a>
+				  <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+				  <ul class="right hide-on-med-and-down">
+				    <li><a href="#">Por qué</a></li>
+				    <li><a href="#">Cómo</a></li>
+				    <li><a href="#" class="dropdown-button" data-activates="despegableQue">Qué<i class="material-icons right">arrow_drop_down</i></a></li>
+				    <li><a href="#">Conócenos</a></li>
+				    <li><a href="#">Contactanos</a></li>
+				  </ul>
+				  <ul class="side-nav" id="mobile-demo">
+				    <li><a href="#">Por qué</a></li>
+				    <li><a href="#">Cómo</a></li>
+				    <li><a href="#">Qué</a></li>
+				    <li><a href="#">Conócenos</a></li>
+				    <li><a href="#">Contactanos</a></li>
+				  </ul>
+				</div>
+			</nav>
+			<ul id="despegableQue" class="dropdown-content">
+				<li><a href="#!">Qué hacemos</a></li>
+				<li><a href="#!">Quienes confiaron</a></li>
+			</ul>
+		</div>
+	</header>
+	<main>
+		<div class="container">
+			<div class="row titular valign-wrapper">
+				<div class="col s12">
+					<h1 class="killapu">Killapu</h1>
+					<h2 class="slogan">Genera conexión</h2>
+				</div>
+			</div>
+			<div class="row valign-wrapper center-align circuloDorado">
+				<div class="col s12">
+					<div class="container">					
+						<i class="material-icons large">favorite</i>
+						<h4><span class="resaltado">¿Por qué?</span></h4>
+						<p class="">
+						Plasmar lo que signficamos en la web y además hacer que el resto lo entienda, puede ser una tarea titánica y sin precedentes.<br> <br>
+						Nosotros entendemos la importancia que tiene este proceso y hacemos realidad tu presencia en la red.</p>
+
+						<div class="ideaCentralCirculo valign-wrapper">
+							<h2 class="flow-text">Creemos en un identidad digital para todos</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row valign-wrapper center-align circuloDorado">
+				<div class="col s12">
+					<div class="container">					
+						<i class="material-icons large">wb_incandescent</i>
+						<h4><span class="resaltado">¿Cómo?</span></h4>
+						<p class="">
+							Generar una identidad digital implica plasmar el espíritu de cada uno en algo tangible que pueda ser <b>visto</b>, pero sobre todo <b>entendido</b>, por miles de personas alrededor del mundo.
+						</p>
+
+						<p> Para ello nos hemos especializado en dos procesos indispensables para que puedas generar conexión con la red</p>
+					</div>						
+					<div class="container">
+						<div class="ideaCentralCirculo valign-wrapper col s6 offset-s3 m5">
+							<h2 class="flow-text">SEO</h2>
+						</div>
+						<div class="ideaCentralCirculo valign-wrapper col s6 offset-s3 m5 offset-m2">
+							<h2 class="flow-text">Diseño web</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<script type="text/javascript">
+		$( document ).ready(function(){
+			$(".dropdown-button").dropdown({
+				inDuration: 300,
+				outDuration: 225,
+				constrain_width: true, // Does not change width of dropdown to that of the activator
+				hover: true, // Activate on hover
+				belowOrigin: true, // Displays dropdown below the button
+				alignment: 'left' // Displays dropdown with edge aligned to the left of button
+  			});
+
+			$(".button-collapse").sideNav();
+			$(document).scroll(function () {
+				$("nav").toggleClass('scrolled', $(this).scrollTop() > $("nav").height());
+				$(".nav-wrapper").children().toggleClass('black-text', $(this).scrollTop()>$(".nav-wrapper").height());
+				$(".hide-on-med-and-down").children().children().toggleClass('black-text', $(this).scrollTop()>$(".nav-wrapper").height());
+			});
+
+			$.scrollify({
+				section : "row",
+				sectionName : "row",
+				interstitialSection : "",
+				easing: "easeOutExpo",
+				scrollSpeed: 1100,
+				offset : 0,
+				scrollbars: true,
+				standardScrollElements: "",
+				setHeights: true,
+				overflowScroll: true,
+				updateHash: true,
+				touchScroll:true,
+				before:function() {},
+				after:function() {},
+				afterResize:function() {},
+				afterRender:function() {}
+			});
+		});		
+	</script>
+</body>
+</html>
