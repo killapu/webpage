@@ -124,12 +124,4 @@ nav ul a{
 
 footer{
 	font-size: 12px;
-	width:100%;
-	position:fixed;/* <== */
-	bottom:0;
-	z-index: 999;
-}
-
-.section{
-	border: solid 1px red !important;
 }

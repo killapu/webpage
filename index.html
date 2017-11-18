@@ -8,7 +8,7 @@
 	<!-- iconos -->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!-- Estilos externos -->
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<!-- Fuentes -->
 	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Pacifico|Roboto:100" rel="stylesheet">
 	<!--Let browser know website is optimized for mobile-->
@@ -44,30 +44,30 @@
 		</div>
 	</header>
 	<main>
-		<div class="container">
-			<div class="row titular valign-wrapper">
+		<div class="container" id="matriz">
+			<div class="row section titular valign-wrapper">
 				<div class="col s12">
-					<h1 class="killapu">Killapu</h1>
+					<h1 class="killapu"> >Killapu</h1>
 					<h2 class="slogan">Genera conexión</h2>
 				</div>
 			</div>
-			<div class="row valign-wrapper center-align circuloDorado">
+			<div class="row section valign-wrapper center-align circuloDorado">
 				<div class="col s12">
 					<div class="container">					
 						<i class="material-icons large">favorite</i>
-						<h4><span class="resaltado">¿Por qué?</span></h4>
-						<p class="">
+						<h4><span class="resaltado ">¿Por qué?</span></h4>
+						<p class="scrollflow -slide-top -opacity">
 						Plasmar lo que signficamos en la web y además hacer que el resto lo entienda, puede ser una tarea titánica y sin precedentes.<br> <br>
 						Nosotros entendemos la importancia que tiene este proceso y hacemos realidad tu presencia en la red.</p>
 
-						<div class="ideaCentralCirculo valign-wrapper hoverable">
+						<div class="ideaCentralCirculo valign-wrapper hoverable waves-effect waves-light">
 							<h2 class="flow-text">Creemos en un identidad digital para todos</h2>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="row valign-wrapper center-align circuloDorado">
+			<div class="row section valign-wrapper center-align circuloDorado">
 				<div class="col s12">
 					<div class="container">					
 						<i class="material-icons large">wb_incandescent</i>
@@ -79,12 +79,12 @@
 						<p>¿Cómo hacemos esto? <br> Si nos puedes compartir tu visión de identidad digital, nos encargamos de llevarla a cabo. Todo depende de ti.</p>
 					</div>
 					<div class="container">
-						<a href="#!" class="col xlbotons hoverable s6 offset-s3"><span class="insideA">Empecemos</span></a>
+						<a href="#!" class="col xlbotons hoverable s6 offset-s3 waves-effect waves-light"><span class="insideA">Empecemos</span></a>
 					</div>		
 					
 				</div>
 			</div>
-			<div class="row valign-wrapper center-align circuloDorado">
+			<div class="row section valign-wrapper center-align circuloDorado">
 				<div class="col s12">
 					<div class="container">
 						<i class="material-icons large">flag</i>
@@ -115,7 +115,7 @@
 				<div class="col s12 m6">
 					© 2017 Killapu. Todos los derechos reservados
 				</div>
-				<div class="col s12 m6 right-align">
+				<div class="col s12 m6">
 					Av. Victor Andres Belaunde 101 B4 #604 C.P. 14011 
 				</div>
 			</div>
@@ -125,8 +125,14 @@
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<!-- Compiled and minified JavaScript -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+	<!-- Scrollflow -->
+	<script type"text/javascript" src="js/eskju.jquery.scrollflow.js"></script>
+	<script type="text/javascript" src="js/jquery.scrollify.js"></script>
 	<script type="text/javascript">
+
 		$( document ).ready(function(){
+
+
 			$(".dropdown-button").dropdown({
 				inDuration: 300,
 				outDuration: 225,
@@ -142,7 +148,17 @@
 				$(".nav-wrapper").children().toggleClass('black-text', $(this).scrollTop()>$(".nav-wrapper").height());
 				$(".hide-on-med-and-down").children().children().toggleClass('black-text', $(this).scrollTop()>$(".nav-wrapper").height());
 			});
+
+			$( "body" ).ScrollFlow();
 		});		
+	</script>
+	<script type="text/javascript">
+		$(function() {
+			$.scrollify({
+				section : ".section",
+				interstitialSection : "footer",
+			});
+		});
 	</script>
 </body>
 </html>
