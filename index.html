@@ -11,11 +11,6 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<!-- Fuentes -->
 	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Pacifico|Roboto:100" rel="stylesheet">
-	<!-- <link href="https://fonts.googleapis.com/css?family=Comfortaa|Roboto:100" rel="stylesheet"> -->
-	<!-- JQuery -->
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-	<!-- Compiled and minified JavaScript -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 	<!--Let browser know website is optimized for mobile-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
@@ -65,7 +60,7 @@
 						Plasmar lo que signficamos en la web y además hacer que el resto lo entienda, puede ser una tarea titánica y sin precedentes.<br> <br>
 						Nosotros entendemos la importancia que tiene este proceso y hacemos realidad tu presencia en la red.</p>
 
-						<div class="ideaCentralCirculo valign-wrapper">
+						<div class="ideaCentralCirculo valign-wrapper hoverable">
 							<h2 class="flow-text">Creemos en un identidad digital para todos</h2>
 						</div>
 					</div>
@@ -81,20 +76,55 @@
 							Generar una identidad digital implica plasmar el espíritu de cada uno en algo tangible que pueda ser <b>visto</b>, pero sobre todo <b>entendido</b>, por miles de personas alrededor del mundo.
 						</p>
 
-						<p> Para ello nos hemos especializado en dos procesos indispensables para que puedas generar conexión con la red</p>
-					</div>						
+						<p>¿Cómo hacemos esto? <br> Si nos puedes compartir tu visión de identidad digital, nos encargamos de llevarla a cabo. Todo depende de ti.</p>
+					</div>
 					<div class="container">
-						<div class="ideaCentralCirculo valign-wrapper col s6 offset-s3 m5">
+						<a href="#!" class="col xlbotons hoverable s6 offset-s3"><span class="insideA">Empecemos</span></a>
+					</div>		
+					
+				</div>
+			</div>
+			<div class="row valign-wrapper center-align circuloDorado">
+				<div class="col s12">
+					<div class="container">
+						<i class="material-icons large">flag</i>
+						<h4><span class="resaltado">¿Qué?</span></h4>
+						<p>Concretamos lo que tienes pensado para tu presencia online con dos productos sencillos pero a la vez muy potentes... indispensables para poder generar conexión la red, tu red.</p>
+					</div>
+					<div class="container center-align" id="products">
+						<a href="#!" class="col xlbotons hoverable s6 offset-s3 m5 waves-effect waves-light">
 							<h2 class="flow-text">SEO</h2>
-						</div>
-						<div class="ideaCentralCirculo valign-wrapper col s6 offset-s3 m5 offset-m2">
+						</a>
+						<a href="#!" class="col xlbotons hoverable s6 offset-s3 m5 offset-m2 waves-effect waves-light">
+							<h2 class="flow-text">Diseño Web</h2>
+						</a>
+						<!-- <div class="products valign-wrapper col s6 offset-s3 m5">
+							<h2 class="flow-text">SEO</h2>
+						</div> -->
+						<!-- <div class="products valign-wrapper col s6 offset-s3 m5 offset-m2">
 							<h2 class="flow-text">Diseño web</h2>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>
 		</div>
 	</main>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col s12 m6">
+					© 2017 Killapu. Todos los derechos reservados
+				</div>
+				<div class="col s12 m6 right-align">
+					Av. Victor Andres Belaunde 101 B4 #604 C.P. 14011 
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- JQuery -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 	<script type="text/javascript">
 		$( document ).ready(function(){
 			$(".dropdown-button").dropdown({
@@ -111,25 +141,6 @@
 				$("nav").toggleClass('scrolled', $(this).scrollTop() > $("nav").height());
 				$(".nav-wrapper").children().toggleClass('black-text', $(this).scrollTop()>$(".nav-wrapper").height());
 				$(".hide-on-med-and-down").children().children().toggleClass('black-text', $(this).scrollTop()>$(".nav-wrapper").height());
-			});
-
-			$.scrollify({
-				section : "row",
-				sectionName : "row",
-				interstitialSection : "",
-				easing: "easeOutExpo",
-				scrollSpeed: 1100,
-				offset : 0,
-				scrollbars: true,
-				standardScrollElements: "",
-				setHeights: true,
-				overflowScroll: true,
-				updateHash: true,
-				touchScroll:true,
-				before:function() {},
-				after:function() {},
-				afterResize:function() {},
-				afterRender:function() {}
 			});
 		});		
 	</script>

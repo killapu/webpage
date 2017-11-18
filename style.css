@@ -5,11 +5,18 @@ body{
 	height: 100%;
 	font-family: 'Comfortaa', cursive;
 	background: #ECE9E6;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: -webkit-linear-gradient(to top, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
 
 
 
+}
+
+main{
+	flex: 1 0 auto;
 }
 
 .killapu {
@@ -67,6 +74,7 @@ nav ul a{
 .ideaCentralCirculo{
 	background: #2F80ED;
 	color: #fff;
+	border-radius: 5px;
 	/*border: solid 2px #2F80ED;*/
 	/*text-decoration: underline;
 	text-decoration-color: #2F80ED;*/
@@ -79,10 +87,33 @@ nav ul a{
 
 }
 
+.xlbotons{
+	background: #2F80ED;
+	color: #fff;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
 .circuloDorado{
 	height: 100vh;
 }
 
 .large{
 	color: #2F80ED;
+}
+
+.products{
+	padding: 0;
+	margin: 0;
+	background: #2F80ED;
+	color: #fff;
+}
+.insideA{
+	font-size: 1.2rem;
+	display: block;
+	margin: 1.78rem 0 1.424rem 0;
+	-webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
 }
