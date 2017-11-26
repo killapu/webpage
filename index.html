@@ -13,6 +13,24 @@
 	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Pacifico|Roboto:100" rel="stylesheet">
 	<!--Let browser know website is optimized for mobile-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<!-- Flavicon -->
+	<link rel="apple-touch-icon" sizes="57x57" href="img/faviconKillapu/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/faviconKillapu/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/faviconKillapu/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/faviconKillapu/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/faviconKillapu/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/faviconKillapu/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/faviconKillapu/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/faviconKillapu/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/faviconKillapu/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="img/faviconKillapu/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/faviconKillapu/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/faviconKillapu/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/faviconKillapu/favicon-16x16.png">
+	<link rel="manifest" href="img/faviconKillapu/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="img/faviconKillapu/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
 </head>
 <body>
 	<header>
@@ -47,14 +65,14 @@
 		<div class="container" id="matriz">
 			<div class="row section titular valign-wrapper">
 				<div class="col s12">
-					<h1 class="killapu"> >Killapu</h1>
+					<h1 class="killapu">Killapu</h1>
 					<h2 class="slogan">Genera conexión</h2>
 				</div>
 			</div>
 			<div class="row section valign-wrapper center-align circuloDorado">
 				<div class="col s12">
 					<div class="container">					
-						<i class="material-icons large">favorite</i>
+						<i class="material-icons large corazon">favorite</i>
 						<h4><span class="resaltado ">¿Por qué?</span></h4>
 						<p class="scrollflow -slide-top -opacity">
 						Plasmar lo que signficamos en la web y además hacer que el resto lo entienda, puede ser una tarea titánica y sin precedentes.<br> <br>
@@ -132,6 +150,7 @@
 
 		$( document ).ready(function(){
 
+			$('#modal1').modal('open');
 
 			$(".dropdown-button").dropdown({
 				inDuration: 300,

@@ -1,0 +1,685 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wid",
+				"width"
+			],
+			[
+				"f",
+				"flow-text"
+			],
+			[
+				"ve",
+				"valign-wrapper"
+			],
+			[
+				"material",
+				"material-icons"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"w",
+				"with"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"hover",
+				"hoverable"
+			],
+			[
+				"edi",
+				"educa@gruporinsa.com"
+			],
+			[
+				"medi",
+				"medium"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"trans",
+				"transform-style"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"trasn",
+				"transition"
+			],
+			[
+				"bann",
+				"bannerInicioPAE"
+			],
+			[
+				"al",
+				"alturaFinal"
+			],
+			[
+				"tab",
+				"tabActivada"
+			],
+			[
+				"wa",
+				"waves-light"
+			],
+			[
+				"off",
+				"offset-s3"
+			],
+			[
+				"text-de",
+				"text-decoration-color"
+			],
+			[
+				"mater",
+				"material-icons"
+			],
+			[
+				"child",
+				"children〔function〕"
+			],
+			[
+				"he",
+				"height〔function〕"
+			],
+			[
+				"nav",
+				"nav-wrapper"
+			],
+			[
+				"sc",
+				"scrollTop〔function〕"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"co",
+				"cover"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"texa",
+				"text-align"
+			],
+			[
+				"TEXa",
+				"text-align"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"fade",
+				"fadeToggle〔function〕"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"BOX",
+				"box-shadow"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"a",
+				"append〔function〕"
+			],
+			[
+				"ke",
+				"keypress〔function〕"
+			],
+			[
+				"borr",
+				"borrarTarea〔variable〕"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"nume",
+				"numeroSecreto"
+			],
+			[
+				"numer",
+				"numeroSecreto〔variable〕"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"pro",
+				"prompt〔function〕"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"fons",
+				"font-size"
+			],
+			[
+				"p",
+				"pointer"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"ar",
+				"articulo"
+			],
+			[
+				"numero",
+				"$numeroPagina〔variable〕"
+			],
+			[
+				"total",
+				"$totalArticulos〔variable〕"
+			],
+			[
+				"fec",
+				"fetchAll"
+			],
+			[
+				"pag",
+				"$pagina〔variable〕"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"prin",
+				"print_r〔function〕"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"_S",
+				"$_SESSION〔variable〕"
+			],
+			[
+				"men",
+				"$mensaje_preparado〔variable〕"
+			],
+			[
+				"en",
+				"$enviar_a〔variable〕"
+			],
+			[
+				"m",
+				"$mensaje〔variable〕"
+			],
+			[
+				"strips",
+				"stripslashes〔function〕"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"error",
+				"$errores〔variable〕"
+			],
+			[
+				"borderr",
+				"border-radius"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"for",
+				"form_control"
+			],
+			[
+				"html",
+				"htmlspecialchars〔function〕"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"nu",
+				"$num2〔variable〕"
+			],
+			[
+				"mes",
+				"$meses〔variable〕"
+			],
+			[
+				"els",
+				"else〔keyword〕"
+			],
+			[
+				"n",
+				"numero"
+			],
+			[
+				"gettu",
+				"gettype〔function〕"
+			],
+			[
+				"fs",
+				"font-size"
+			],
+			[
+				"textal",
+				"text-align"
+			],
+			[
+				"bs",
+				"background-size"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"foc",
+				"onfocus\tAttr"
+			],
+			[
+				"1",
+				"1E22AA"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"wi",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 8094,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 1981,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 192.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 340.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/josenavarrete/Documentos/KILLAPU/KillapuWeb",
+		"/home/josenavarrete/Documentos/KILLAPU/KillapuWeb/css"
+	],
+	"file_history":
+	[
+		"/home/josenavarrete/Documentos/KILLAPU/KillapuWeb/css/style.css",
+		"/home/josenavarrete/Documentos/KILLAPU/KillapuWeb/style.css",
+		"/home/josenavarrete/Documentos/KILLAPU/KillapuWeb/index.html",
+		"/home/josenavarrete/Documentos/KILLAPU/Proyectos funcionales/Campus2/login.php",
+		"/home/josenavarrete/Documentos/KILLAPU/Proyectos funcionales/Campus2/campus.php",
+		"/opt/lampp/htdocs/CursoPHP/Simple_Campus/views/campus.view.php",
+		"/opt/lampp/htdocs/CursoPHP/Simple_Campus/views/login.view.php",
+		"/opt/lampp/htdocs/CursoPHP/Simple_Campus/css/campus.css",
+		"/opt/lampp/htdocs/CursoPHP/Simple_Campus/css/styles.css",
+		"/opt/lampp/htdocs/CursoPHP/Simple_Campus/login.php",
+		"/home/josenavarrete/Documentos/KILLAPU/Killapu logo/css/style.css",
+		"/home/josenavarrete/Documentos/KILLAPU/Plantillas/local/index.html",
+		"/home/josenavarrete/Documentos/KILLAPU/Plantillas/CDN/index.html",
+		"/home/josenavarrete/Documentos/KILLAPU/plantilla.html",
+		"/home/josenavarrete/Escritorio/pruebas.html",
+		"/home/josenavarrete/Documentos/killapu/Grupo Rinsa Web/css/styles.css",
+		"/home/josenavarrete/Documentos/killapu/Grupo Rinsa Web/index.html",
+		"/home/josenavarrete/Documentos/killapu/educa/paegestion.html",
+		"/home/josenavarrete/Documentos/killapu/educa/formularioSomosMas.html",
+		"/home/josenavarrete/Documentos/killapu/KillapuWeb/js/eskju.jquery.scrollflow.js",
+		"/home/josenavarrete/Documentos/killapu/brochure/somosmas.html",
+		"/home/josenavarrete/Documentos/killapu/brochure/css/style.css",
+		"/home/josenavarrete/Documentos/killapu/brochure/paegestion.html",
+		"/home/josenavarrete/Documentos/killapu/brochure/index.html",
+		"/home/josenavarrete/Documentos/killapu/brochure/somosmas",
+		"/home/josenavarrete/Documentos/killapu/JAvascript MDN/FirstStep/index.html",
+		"/home/josenavarrete/Documentos/killapu/JAvascript MDN/FirstStep/main.js",
+		"/home/josenavarrete/Documentos/killapu/The-Web-Developer-Bootcamp/PatataSounds/circles.html",
+		"/home/josenavarrete/Documentos/killapu/The-Web-Developer-Bootcamp/AppToDo/main.js",
+		"/home/josenavarrete/Documentos/killapu/The-Web-Developer-Bootcamp/AppToDo/styles.css",
+		"/home/josenavarrete/Documentos/killapu/Web FIGE COESTI/figecoesti(web)/index.html",
+		"/home/josenavarrete/Documentos/killapu/Web FIGE COESTI/figecoesti(web)/css/styles.css",
+		"/home/josenavarrete/Documentos/killapu/The-Web-Developer-Bootcamp/game.html",
+		"/home/josenavarrete/Escritorio/firmaFinal.html",
+		"/opt/lampp/htdocs/CursoPHP/Simple_Campus/campus.php",
+		"/opt/lampp/htdocs/CursoPHP/Simple_Campus/index.php",
+		"/opt/lampp/htdocs/CursoPHP/Simple_Campus/views/index.view.php",
+		"/home/josenavarrete/Documentos/killapu/Formulario_CSS_HTML/css/style.css",
+		"/opt/lampp/htdocs/CursoPHP/login_registro/views/contenido.view.php",
+		"/opt/lampp/htdocs/CursoPHP/login_registro/css/estilos.css",
+		"/opt/lampp/htdocs/CursoPHP/login_registro/index.php",
+		"/home/josenavarrete/Documentos/login_registro/views/contenido.view.php",
+		"/home/josenavarrete/Documentos/killapu/Dhakoure_web/css/styles.css",
+		"/home/josenavarrete/Documentos/killapu/Dhakoure_web/index.html",
+		"/opt/lampp/htdocs/CursoPHP/pdo.php",
+		"/opt/lampp/htdocs/CursoPHP/Sesiones/cerrar.php",
+		"/opt/lampp/htdocs/CursoPHP/Sesiones/index.php",
+		"/opt/lampp/htdocs/CursoPHP/Sesiones/pag2.php",
+		"/opt/lampp/htdocs/CursoPHP/Formulario de Contacto/index.php",
+		"/opt/lampp/htdocs/CursoPHP/Formulario de Contacto/index.view.php",
+		"/opt/lampp/htdocs/CursoPHP/Formulario de Contacto/estilos.css",
+		"/home/josenavarrete/Documentos/killapu/figecoesti/index.html",
+		"/opt/lampp/htdocs/CursoPHP/practicar.php",
+		"/opt/lampp/htdocs/CursoPHP/funciones.php",
+		"/opt/lampp/htdocs/CursoPHP/condicionales.php",
+		"/opt/lampp/htdocs/CursoPHP/cicloWhile.php",
+		"/opt/lampp/htdocs/CursoPHP/recorriendoArreglos.php",
+		"/opt/lampp/htdocs/CursoPHP/dowhile.php",
+		"/opt/lampp/htdocs/CursoPHP/cicloFor.php",
+		"/opt/lampp/htdocs/CursoPHP/arreglos.php",
+		"/opt/lampp/htdocs/CursoPHP/constantes.php",
+		"/opt/lampp/htdocs/CursoPHP/variables.php",
+		"/home/josenavarrete/Documentos/killapu/Formulario_CSS_HTML/index.html",
+		"/home/josenavarrete/Documentos/Página Fige/css/styles.css",
+		"/home/josenavarrete/Documentos/Página Fige/index.html",
+		"/home/josenavarrete/Documentos/formulario.html",
+		"/home/josenavarrete/Documentos/Página Fige/sesiones.html",
+		"/home/josenavarrete/Documentos/Página Fige/css/materialize.css",
+		"/home/josenavarrete/Documentos/Página Fige/css/materialize.min.css",
+		"/home/josenavarrete/Documentos/Página Fige/tarea.html",
+		"/home/josenavarrete/Documentos/paginarinsa-master/index.html",
+		"/home/josenavarrete/Documentos/Página Web Grupo RINSA/index.html"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"slogan"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8094,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3734,
+								3734
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 700.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1981,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								466,
+								466
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "webKillapu.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 283.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

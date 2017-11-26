@@ -4,9 +4,10 @@ html{
 body{
 	height: 100%;
 	font-family: 'Comfortaa', cursive;
-	background: #ECE9E6;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to top, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to top, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+	/*background: #ECE9E6;*/  /* fallback for old browsers */
+	/*background: -webkit-linear-gradient(to top, #FFFFFF, #ECE9E6);   Chrome 10-25, Safari 5.1-6 */
+	/*background: linear-gradient(to top, #FFFFFF, #ECE9E6);*/ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
@@ -22,6 +23,7 @@ main{
 .killapu {
 	font-family: 'Comfortaa', cursive;
 	font-weight: 700;
+	color: #2F80ED;
 }
 
 nav{
@@ -64,6 +66,7 @@ nav ul a{
 
 .titular h2 {
 	font-size: 3rem;
+	color: #2F80ED;
 }
 
 .resaltado {
@@ -102,9 +105,25 @@ nav ul a{
 	color: #2F80ED;
 }
 
-.large::before{
-	text-shadow: 10px 0px 10px rgb(159, 92, 74);
+@keyframes latidos{
+	from {
+		transform: none;
+	}
+
+	50% {
+		transform: scale(1.2);
+	}
+
+	to{
+		transform: none;
+	}
 }
+
+.corazon{
+	animation: latidos .84s infinite;
+	transform-origin: center;
+}
+
 
 .products{
 	padding: 0;
